@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-size: 40px;
+  font-family: 'Yellowtail', cursive;
+}
+
+header {
+  color: #ffffff;
+  padding: 45px 0;
+  background-color: #eedad1;
+  color: #d4b5b0;
+}
+
+.container{
+  width: 90%;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container h1 {
+  margin: 0px;
+  font-size: 1.5em;
+}
+
+.container h2 {
+  font-size: 1em;
+}
+
+.dish1 {
+  width: 100%;
+}
+
+section {
+  color: #000000;
+  padding: 10px 0;
+}
+
+ul {
+  font-size : 0.5em;
+  font-family: 'Crimson Text', serif;
+}
+
+p {
+  font-size: 0.5em;
+  font-family: 'Crimson Text', serif;
+}
