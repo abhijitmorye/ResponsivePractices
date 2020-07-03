@@ -7,7 +7,7 @@ body {
   font-size: 1rem;
   padding: 0.5em;
   width: 90%;
-  max-width: 620px;
+  max-width: 980px;
   margin: 0em auto 0em auto;
 }
 
@@ -23,6 +23,7 @@ body {
 
 .column1 {
   display: flex;
+  align-items: flex-start;
 }
 
 h3 {
@@ -51,6 +52,7 @@ h3 {
 
 .column2 {
   display: flex;
+  align-items: flex-start;
 }
 
 .col2_1 {
