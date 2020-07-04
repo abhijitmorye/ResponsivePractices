@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+img {
+  max-width: 100%;
+  dispay: block;
+}
 header {
   background-color: #f8f8f8;
   padding: 2em;
@@ -90,4 +94,169 @@ nav a:focus {
 
 .currentpage:hover {
   color: #707070;
+}
+
+.middle-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 2em auto;
+}
+
+.middle-container-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 70%;
+}
+
+.sidebar {
+  width: 30%;
+}
+
+.main-box {
+  text-align: left;
+}
+
+.main-box-img {
+  width: 100%;
+  height: 19.25em;
+}
+
+.main-box-commentbox {
+  font-size : 0.87rem;
+  font-family: Segoe UI;
+  color: ##707070;
+}
+
+.main-box-title {
+  color : #143774;
+  font-size: 1.5rem;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+}
+
+.main-box-body {
+  color: #707070;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1rem;
+}
+
+.main-box-body span {
+  color: #707070;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.main-box-body a {
+  color: #1792D2;
+  text-decoration: underline;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: Light;
+  letter-spacing: 0.1px;
+}
+
+.main-box-body a:hover,
+.main-box-body a:focus {
+  color: #143774;
+}
+
+.main-box-readmore {
+  color: #1792D2;;
+  text-transform: uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.87rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.main-box-readmore:hover,
+.main-box-readmore:focus {
+  color: #143774;
+  text-decoration: underline;
+
+}
+
+.child-box {
+  display: flex;
+  text-align: left;
+}
+
+.child-box-imginfo {
+  width: 30%;
+}
+
+.child-box-img {
+  width: 100%;
+}
+
+.child-box-commmentbox {
+  color: #707070;
+  font-size : 0.87rem;
+  font-family: Segoe UI;
+}
+
+.child-box-info {
+  width: 70%;
+}
+
+.child-box-title {
+  color : #143774;
+  font-family: 'Lora', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.child-box-body {
+  color: #707070;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.child-box-readmore {
+  color: #1792D2;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.87rem;
+}
+
+.child-box-readmore:hover,
+.child-box-readmore:focus {
+  color: #143774;
+  text-decoration: underline;
+
+}
+
+.sidebar-widget {
+  text-align: center;
+}
+
+.widget-title {
+  color: #143774;
+  font-size: 1rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.widget-img {
+  width: 100%;
+}
+
+.widget-body {
+  color: #143774;
+  font-size: 0.8rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+.widget-recent-title {
+  color: #707070;
+  font-size: 0.8rem;
+  font-family: 'Lora', serif;
 }
