@@ -332,6 +332,12 @@ main {
   display: flex;
   flex-direction: column;
   margin-bottom: 1em;
+  border-bottom: 1px solid #707070;
+}
+
+.widget-recent:last-child {
+  border : 0px;
+  margin: 0em;
 }
 
 .widget-recent-title {
@@ -341,4 +347,17 @@ main {
 .widget-img {
   order: 1;
   margin-bottom: 0.5em;
+}
+
+footer {
+  width: 100%;
+  background-color: #143774;
+  color: #ffffff;
+  text-align: center;
+  padding: 2em;
+}
+
+footer p {
+  margin-bottom: 0em;
+
 }
